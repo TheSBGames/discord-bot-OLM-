@@ -24,7 +24,7 @@ import cogs
 
 #Configuring Jishaku behavior
 os.environ["JISHAKU_NO_DM_TRACEBACK"] = "False"
-os.environ["JISHAKU_HIDE"] = "True"
+os.environ["JISHAKU_IDE"] = "True"
 os.environ["JISHAKU_NO_UNDERSCORE"] = "True"
 os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
