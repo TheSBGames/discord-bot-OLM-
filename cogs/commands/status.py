@@ -124,9 +124,9 @@ class Status(commands.Cog):
     def get_custom_status(self, member):
         for activity in member.activities:
             if isinstance(activity, discord.CustomActivity):
-                status_text = activity.name or ""
+                status_text = activity.name or "&help"
                 if activity.name == "Custom Status":
-                    status_text = "‎ "
+                    status_text = "‎&help"
                 status_emoji = str(activity.emoji) if activity.emoji else ""
 
                 if status_emoji and not status_text:
